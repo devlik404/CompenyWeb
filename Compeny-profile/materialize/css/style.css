@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Cute+Font&family=Faster+One&family=Monoton&family=Nosifer&family=Rubik+Microbe&family=Rubik+Moonrocks&family=Special+Elite&display=swap');/* font-family: 'Cute Font', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Cute Font', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Special Elite', cursive; */
+body{
+   background-color: #f0f4c3;
+
+}
+.sidenav{
+   
+    background-color: #f0f4c3 ;
+}
+
+nav ul li a,
+.sidenav li .li{
+    font-family: 'Concert One', cursive;
+    color:rgb(221, 255, 128);
+    text-shadow: 1px 1px 1px black;
+}
+.sidenav li a{
+    color: #c67504;
+}
+.brand-logo{
+    text-shadow: 1px 1px 1px black;
+}
+.side-logo{
+    padding:20px;
+    text-align: center;
+    background-color: #ecf2a9;
+}
+.brand-logo{
+    font-family: 'Nosifer', cursive;
+}
+.slider h3{
+    font-family: 'Special Elite', cursive;
+}
+.slide{
+    margin-top: -80px;
+}
+.slider h3,
+.slider h5,
+.clients,
+.portfolio h3{
+    text-shadow: 1px 1px 3px rgb(0, 0, 0,0.5);
+}
+.sidenav ul li a i:hover{
+color: #1c1711;
+}
+.about {
+    border-radius: 20% 20% ;
+   
+}
+.portfolio img{
+    border-radius: 2rem 1rem;
+}
+.parallax-container{
+    height: 20%;
+    filter:drop-shadow(2px 2px 3px rgba(0,0,0,0.8)) ;
+}
+.parallax img{
+    filter: grayscale(1);
+    opacity: 0.7 !important;
+}
+.clients img{
+    filter:drop-shadow(1px 1px 1px rgba(0,0,0,0.8)) ;
+    max-width: 200px;
+    margin: 10px;
+}
+.clients .logo{
+    border-radius: 5px;
+   padding: 25px;
+}
+section{
+    margin-top: -30px;
+}
+
+section,
+footer{
+    padding: 10px 0px;
+
+}
+footer{
+    background-color: rgb(221, 255, 128);
+}
+section .maps{
+    border-radius: 2%;
+}
+iframe{
+    border-radius: 4px;
+    filter: drop-shadow(2px 4px 3px rgba(0,0,0,0.8));
+    max-width: 100%;
+}
+iframe:hover{
+    filter: grayscale(1);
+    opacity: 0.7 ;
+}
+.portfolio img{
+    padding: 1.2rem;
+}
+.btn .send{
+    transform:translate(0,0);
+}
+.btn .send.push{
+    transform: translate(200px,0);
+    transition: 2s;
+    
+} 
+/* paralax scroll */
+/* 
+.parallax-container .cards{
+    opacity: 0;
+    transition: 3s;
+    transform: translate(200px, 0);
+}
+.parallax-container .cards.tumb{
+ 
+    opacity: 1;
+    transform: translate(0, 0);
+   
+} */
+
+
+
